@@ -1,0 +1,26 @@
+{
+"update_url": "https://clients2.google.com/service/update2/crx",
+
+
+    "manifest_version": 3,
+    "name": "Pacman Game",
+    "version": "1.0.0",
+  
+    "action": {
+        "default_icon": {             
+          "24": "icons/icon24.png",  
+          "32": "icons/icon32.png"    
+        },
+        "default_title": "Pacman, click to play!",   
+        "default_popup": "index.html"  
+      },
+    
+      
+    "offline_enabled": true,
+    "description": "Play classic Pacman game offline version on your Google Chrome!",
+    "icons": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png" },
+    "options_page": "index.html"
+}

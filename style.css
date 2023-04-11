@@ -1,0 +1,36 @@
+/* cs file */
+body {   /*body function */
+  background-color: black;
+  min-width: 470px;
+}
+#pacman {
+  height: 470px;
+  width: 382px;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+.navigation{
+  text-align: center;
+  color: yellow;
+}
+body {
+  width: 342px;
+  margin: 0px auto;
+  font-family: sans-serif;
+}
+
+#shim {
+  font-family: 'Tahoma', cursive;
+  position: absolute;
+  visibility: hidden
+}
+
+h1 {
+  font-family: 'Tahoma', cursive;
+  text-align: center;
+  color: yellow;
+}
+a {
+  text-decoration: none;
+  color: #0000FF;
+}
